@@ -4,6 +4,7 @@ vflag=
 cflag=
 if (( $# < 1 ))
 then
+  wget -N YourWebEPGAdress -O ~/.xmltv/tv_grab_file.xmltv
   cat ~/.xmltv/tv_grab_file.xmltv
   exit 0
 fi
